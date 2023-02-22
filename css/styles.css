@@ -115,7 +115,7 @@ color: #434455;
 .footer-description {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;    
     color: #E7E9FC;
 }
@@ -140,7 +140,7 @@ color: #434455;
 .portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -148,7 +148,7 @@ color: #434455;
 .portfolio-description {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
