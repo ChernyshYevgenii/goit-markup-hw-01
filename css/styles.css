@@ -222,10 +222,22 @@ color: var(--description-color);
     letter-spacing: 0.02em;
     color:  var(--title-color);
 }
+.portfolio-subtitle:hover{
+    color: var(--btn-active-color);
+}
+.portfolio-subtitle:focus{
+    color: var(--btn-active-color);
+}
 
 .portfolio-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--description-color);
+}
+.portfolio-description:hover{
+    color: var(--btn-active-color);
+}
+.portfolio-description:focus{
+    color: var(--btn-active-color);
 }
