@@ -6,6 +6,7 @@
     --description-color: #434455;
     --background-color: #2E2F42;
     --background-team-color: #F4F4FD;
+    --backgraund-team-fon:#F4F4FD;
     --footer-background: #2E2F42;
     --footer-logo: #F4F4FD;
     --footer-logo-span: #4D5AE5;
@@ -183,7 +184,7 @@ body{
     background: var(--btn-active-color);
 }
 .about-teem {
-    background: var(--background-team-color);
+    background: var(--backgraund-team-fon);
     padding: 24px 0;
 }
 .about{
