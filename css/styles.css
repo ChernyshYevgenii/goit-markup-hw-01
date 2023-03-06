@@ -152,7 +152,7 @@ body{
 .hero{
     background-color:  var(--background-color);
     text-align: center;
-    padding: 24px 0;
+    padding: 188px 0;
 }
 .hero-title{
     width: 496px;
@@ -161,8 +161,7 @@ body{
     color: var(--title-color-two);
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 48px;
-    padding-top: 164px;      
+    margin-bottom: 48px;    
 }
 .hero-btn{
     font-family: 'Roboto', sans-serif;
@@ -175,7 +174,6 @@ body{
     border-radius: 4px;
     cursor: pointer;
     padding: 16px 32px;
-    margin-bottom: 188px;  
 }
 .hero-btn:hover{
     background: var(--btn-active-color);
@@ -185,15 +183,15 @@ body{
 }
 .about-teem {
     background: var(--backgraund-team-fon);
-    padding: 24px 0;
+    padding: 120px 0 120px;
 }
 .about{
-    padding: 24px 0;
+    padding: 120px 0 31px;
 }
 .about-list {
     display: flex;
-    justify-content: space-around;
-    gap: 16px;
+    justify-content:space-between;
+    gap: 24px;
 }
 .about-title{
     font-size: 36px;
@@ -203,53 +201,47 @@ body{
     color: var(--title-color);
     text-align: center;
     margin-bottom: 72px;
-    margin-top: 96px;
 }
 .about-subtitle {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:  var(--title-color);
-    padding: 0 4px;
-    margin-top: 96px;
     margin-bottom: 8px;
 }
 .about-description {
-    width: 274px;
+    width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--description-color);
-    padding: 0 5px;
-    margin-bottom: 96px;
 }
 .our-work{
-    padding: 24px 0;
+    padding: 105px 0 103px;
 }
 .about-list-work{
     display: flex;
     justify-content: space-around;
     gap: 24px;
-    margin-bottom: 104px;
 }
 .team-card{
     background: var(--background-team-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
+.card-team{
+    padding: 32px 0;
+}
 .about-team-card{
     display: flex;
     gap: 24px;
-    margin-bottom: 120px;
     text-align: center;
-    height: 380px;
 }
 .about-subtitle-team{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 .about-desctiption-team {
@@ -260,7 +252,7 @@ body{
 }
 .footer {
     background:  var(--footer-background);
-    padding: 26px 0;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -272,7 +264,6 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--footer-logo);
-    margin-top: 76px;
 }
 .footer-logo> span {
     font-family: 'Raleway', sans-serif;
@@ -288,19 +279,17 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;    
     color: var(--footer-text-color);
-    margin-top: 16px;
-    margin-bottom: 76px;   
+    margin-top: 16px;  
     width: 264px;
 }
 .filtr-btn{
     display: flex;
     gap: 24px;
     justify-content: center;
-    margin-top: 57px;
     margin-bottom: 72px;
 }
 .portfolio{
-    padding: 26px 0;
+    padding: 83px 0 120px;
 }
 .work-btn{
     font-family:'Roboto',sans-serif;
@@ -326,8 +315,6 @@ body{
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
-    padding-top: 24px;
-    margin-bottom: 120px;
 }
 .Portfolio-title {
 
@@ -340,12 +327,7 @@ body{
     color:  var(--title-color);
     margin-bottom: 8px;
 }
-.portfolio-subtitle:hover{
-    color: var(--btn-active-color);
-}
-.portfolio-subtitle:focus{
-    color: var(--btn-active-color);
-}
+
 
 .portfolio-description {
     font-size: 16px;
@@ -354,12 +336,7 @@ body{
     color: var(--description-color);
     
 }
-.portfolio-description:hover{
-    color: var(--btn-active-color);
-}
-.portfolio-description:focus{
-    color: var(--btn-active-color);
-}
+
 .border-text{
     padding: 32px 16px;
     border: 1px solid var(--border-portfolio);
