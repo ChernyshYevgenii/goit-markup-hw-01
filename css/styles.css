@@ -188,6 +188,9 @@ body{
 .hero-btn:focus {
     background: var(--btn-active-color);
 }
+.about-icon-link{
+    width: 264px;
+}
 .about-teem {
     background: var(--backgraund-team-fon);
     padding: 120px 0 120px;
@@ -196,7 +199,7 @@ body{
     padding: 120px 0 31px;
 }
 .about-icons{
-    background: var(--background-team-color);
+    background: var(--backgraund-team-fon);
     border-radius: 4px;;
     margin-bottom: 8px;
     padding: 24px 0;
@@ -223,7 +226,6 @@ body{
     margin-bottom: 8px;
 }
 .about-description {
-    width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
