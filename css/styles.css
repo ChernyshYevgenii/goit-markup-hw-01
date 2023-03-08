@@ -190,6 +190,7 @@ body{
 }
 .about-icon-link{
     width: 264px;
+    
 }
 .about-teem {
     background: var(--backgraund-team-fon);
@@ -198,11 +199,9 @@ body{
 .about{
     padding: 120px 0 31px;
 }
-.about-icons{
-    background: var(--backgraund-team-fon);
-    border-radius: 4px;;
-    margin-bottom: 8px;
+.about-icon{
     padding: 24px 0;
+    background: var(--backgraund-team-fon);
 }
 .about-list {
     display: flex;
