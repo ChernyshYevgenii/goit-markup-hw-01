@@ -199,7 +199,9 @@ body{
 .about{
     padding: 120px 0 31px;
 }
+
 .about-icon{
+    display: flex;
     padding: 24px 0;
     background: var(--backgraund-team-fon);
 }
