@@ -233,6 +233,7 @@ body{
     letter-spacing: 0.02em;
     color:  var(--title-color);
     margin-bottom: 8px;
+    font-weight: 500;
 }
 .about-description {
     font-size: 16px;
@@ -475,6 +476,7 @@ justify-content: center;
     letter-spacing: 0.02em;
     color:  var(--title-color);
     margin-bottom: 8px;
+    font-weight: 500;
 }
 .portfolio-description {
     font-size: 16px;
