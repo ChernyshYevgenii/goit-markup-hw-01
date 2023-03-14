@@ -22,13 +22,13 @@
                 <a href="./index.html" class="header-logo link"><span>Web</span>Studio</a>
                 <ul class="header-list list">
                     <li class="header-item">
-                        <a href="" class="header-link link">Studio</a>
+                        <a href="./index.html" class="header-link link current">Studio</a>
                     </li>
                     <li class="header-item">
-                        <a href="./portfolio.html" class="header-link link">Portfolio</a>
+                        <a href="./portfolio.html" class="header-link link ">Portfolio</a>
                     </li>
                     <li class="header-item">
-                        <a href="" class="header-link link">Contacts</a>
+                        <a href="" class="header-link link ">Contacts</a>
                     </li>
                     
                 </ul>
@@ -47,7 +47,7 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                <button type="button" class="hero-btn">Order Service</button>
+                <button type="button" class="hero-btn" data-modal-open>Order Service</button>
             </div>
         </section>
         <!--/Hero section-->
@@ -364,5 +364,15 @@
         </div>
     </footer>
     <!--/section footer-->
+    <div class="backdrop is-hidden"  data-modal>
+        <div class="modal">
+            <button type="button" class="close-button" data-modal-close>
+                <svg class="close-btn-icon" width="8" height="8">
+                    <use href="./images/symbol-defs.svg#icon-close-btn"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
