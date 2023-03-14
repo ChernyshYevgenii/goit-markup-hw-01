@@ -334,6 +334,10 @@ justify-content: center;
     border-color: var(--client-color-hover);
     color:var(--client-color-hover);
 }
+.clients-items:focus{
+    border-color: var(--client-color-hover);
+    color: var(--client-color-hover);
+}
 
 .clients-link-icon{
     fill: currentColor;  
