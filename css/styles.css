@@ -253,6 +253,7 @@ body{
 }
 .about-subtitle {
     font-size: 20px;
+    font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:  var(--title-color);
@@ -500,6 +501,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .portfolio-subtitle {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
