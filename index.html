@@ -15,7 +15,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<>
+<body>
     <header class="header">
         <div class="container header-container">
             <nav class="header-navigation">
@@ -58,7 +58,7 @@
                 <ul class="about-list list">
                     <li class="about-icon-link">
                         <div class="about-icon">
-                            <svg class="about-icon-image" wight="64" height="64">
+                            <svg class="about-icon-image" width="64" height="64">
                                 <use href="./images/symbol-defs.svg#icon-antenna_a"></use>
                             </svg >
                         </div>
@@ -67,7 +67,7 @@
                     </li>
                     <li class="about-icon-link">
                         <div class="about-icon">
-                            <svg class="about-icon-image" wight="64" height="64">
+                            <svg class="about-icon-image" width="64" height="64">
                                 <use href="./images/symbol-defs.svg#icon-clock-_a"></use>
                             </svg>
                         </div>
@@ -76,7 +76,7 @@
                     </li>
                     <li class="about-icon-link">
                         <div class="about-icon">
-                            <svg class="about-icon-image" wight="64" height="64">
+                            <svg class="about-icon-image" width="64" height="64">
                                 <use href="./images/symbol-defs.svg#icon-diagram_a"></use>
                             </svg>
                         </div>
@@ -85,7 +85,7 @@
                     </li>
                     <li class="about-icon-link">
                         <div class="about-icon">
-                            <svg class="about-icon-image" wight="64" height="64">
+                            <svg class="about-icon-image" width="64" height="64">
                                 <use href="./images/symbol-defs.svg#icon-astronaut_a"></use>
                             </svg>
                         </div>
@@ -363,12 +363,14 @@
             <div class="footer-input-form">
                 <p class="footer-social-description">Subscribe</p>
                 <div class="footer-input-group">
-                    <input type="email" class="footer-input" placeholder="E-mail">
-                    <button type="submit" class="footer-input-btn">Subscribe
-                        <svg class="footer-input-icon" width="24" height="24">
-                            <use href="./images/symbol-defs.svg#icon-telegram"></use>
-                        </svg>
-                    </button>
+                    <form class="footer-input-group">
+                        <input type="email" class="footer-input" placeholder="E-mail">
+                        <button type="submit" class="footer-input-btn">Subscribe
+                            <svg class="footer-input-icon" width="24" height="24">
+                                <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                            </svg>
+                        </button>
+                    </form>
                 </div>
             </div>
             
@@ -385,7 +387,7 @@
                 </svg>
             </button>
             <p class="modal-title">Leave your contacts and we will call you back</p>
-            <form modal-form form>
+            <form class="modal-form">
                 <div class="form-group">
                     <label class="form-label"><span>Name</span>
                         <div class="form-control">
@@ -419,7 +421,7 @@
                 </div>
                 <div class="form-group">
                     <label class="form-label"><span>Comment</span>
-                        <textarea name="Comment" class="form-texteria">Text input</textarea>
+                        <textarea name="Comment" class="form-texteria" placeholder="Text input"></textarea>
                     </label>
                 </div>
                 <div class="form-group">

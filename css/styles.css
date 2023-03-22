@@ -362,6 +362,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: var(--client-color-hover);
     color:var(--client-color-hover);
 }
+.clients-items:focus{
+    border-color: var(--client-color-hover);
+    color: var(--client-color-hover);
+}
 
 .clients-link-icon{
     fill: currentColor;  
@@ -433,6 +437,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-text-color);
+    margin-bottom: 16px;
 }
 .footer-list{
    margin-left: 120px; 
@@ -465,8 +470,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-link{
     display: block;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms lcubic-bezier(0.4, 0, 0.2, 1);
-}
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 .portfolio-link:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -511,6 +516,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 8px;
 }
 .portfolio-link:hover .portfolio-overlay{
+    transform: translateY(0);
+}
+.portfolio-link:focus .portfolio-overlay {
     transform: translateY(0);
 }
 .overlay-top{
@@ -583,12 +591,15 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 50%;
     cursor: pointer; 
     color: var(--color-black);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms lcubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-button:hover {
     background: var(--btn-active-color);
-    color: var(--btn-text);;
-    
+    color: var(--btn-text);
+}
+.close-button:focus{
+    background: var(--btn-active-color);
+    color: var(--btn-text);
 }
 .is-hidden {
     opacity: 0;
@@ -646,6 +657,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .form-group{
     margin-bottom: 8px;
 }
+.form-group :last-child{
+    margin-bottom: 0;
+}
+
 .form-input:focus{
     border-color: var(--btn-active-color);
 }
@@ -665,6 +680,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: rgba(117, 117, 117, 0.5);
     outline: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 4px;
 }
 .form-texteria:focus{
     border: 1px solid var(--btn-fon);
@@ -739,7 +755,8 @@ border: 1.25px solid var(--btn-active-color);
     font-size: 16px;
     line-height: 1.5;
     color: var(--btn-text);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms lcubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    
 }
 .Privacy-policy{
     margin-left: 4px ;
@@ -752,9 +769,7 @@ border: 1.25px solid var(--btn-active-color);
     background: var(--btn-active-color);
 }
 .footer-input-icon{
-    margin-left: 16px;
 }
 .footer-input-group{
     display: flex;
-    margin-top: 16px;
 }
